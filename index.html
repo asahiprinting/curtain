@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asahi Curtain Shop (Demo デモ)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <section class="hero is-light">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Asahi Curtain Shop (Demo デモ)
+                </h1>
+                <p class="subtitle has-text-info">
+                    integrated with Web AR
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="box">
+                <h1 class="title ">モダンなカーテン</h1>
+                <h1 class="subtitle has-text-info">¥ 99,999</h1>
+                <model-viewer src="resources/curtain_output.glb" alt="A 3D model of a curtain" auto-rotate
+                    camera-controls>
+                </model-viewer>
+                <p>このように、ECサイトで使用する商品画像に加えて、ARで自分の部屋にプレビューが出来ます。</p>
+                <div class="button is-info is-light">購入</div>
+            </div>
+            <div class="box">
+                <h1 class="title ">レトロなカーテン</h1>
+                <h1 class="subtitle has-text-info">¥ 99,999</h1>
+                <model-viewer src="resources/curtain_output.glb" alt="A 3D model of a curtain" auto-rotate
+                    camera-controls>
+                </model-viewer>
+                <div class="button is-info is-light">購入</div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footer">
+    <div class="content has-text-centered">
+        <a href="https://www.ar-ap-inc.jp">Asahi AR</a>
+        <a href="https://ap-inc.co.jp">朝日印刷株式会社</a>
+    </div>
+</footer>
+
+</html>
